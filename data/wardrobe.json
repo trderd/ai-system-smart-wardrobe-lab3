@@ -1,0 +1,281 @@
+[
+  {
+    "item_id": "ITEM_1",
+    "user_id": "USER_1024",
+    "name": "Футболка",
+    "category": "top",
+    "warmth": "light",
+    "occasions": [
+      "casual"
+    ],
+    "precipitation": [
+      "none",
+      "rain"
+    ],
+    "min_temperature": 16.0,
+    "max_temperature": 35.0
+  },
+  {
+    "item_id": "ITEM_2",
+    "user_id": "USER_1024",
+    "name": "Легкие брюки",
+    "category": "bottom",
+    "warmth": "light",
+    "occasions": [
+      "casual"
+    ],
+    "precipitation": [
+      "none",
+      "rain"
+    ],
+    "min_temperature": 16.0,
+    "max_temperature": 35.0
+  },
+  {
+    "item_id": "ITEM_3",
+    "user_id": "USER_1024",
+    "name": "Летние кроссовки",
+    "category": "shoes",
+    "warmth": "light",
+    "occasions": [
+      "casual"
+    ],
+    "precipitation": [
+      "none"
+    ],
+    "min_temperature": 16.0,
+    "max_temperature": 35.0
+  },
+  {
+    "item_id": "ITEM_4",
+    "user_id": "USER_1024",
+    "name": "Легкий дождевик",
+    "category": "outerwear",
+    "warmth": "light",
+    "occasions": [
+      "casual"
+    ],
+    "precipitation": [
+      "none",
+      "rain"
+    ],
+    "min_temperature": 16.0,
+    "max_temperature": 35.0
+  },
+  {
+    "item_id": "ITEM_5",
+    "user_id": "USER_1024",
+    "name": "Лонгслив",
+    "category": "top",
+    "warmth": "medium",
+    "occasions": [
+      "casual"
+    ],
+    "precipitation": [
+      "none",
+      "rain",
+      "snow"
+    ],
+    "min_temperature": 0.0,
+    "max_temperature": 24.0
+  },
+  {
+    "item_id": "ITEM_6",
+    "user_id": "USER_1024",
+    "name": "Джинсы",
+    "category": "bottom",
+    "warmth": "medium",
+    "occasions": [
+      "casual"
+    ],
+    "precipitation": [
+      "none",
+      "rain",
+      "snow"
+    ],
+    "min_temperature": 0.0,
+    "max_temperature": 24.0
+  },
+  {
+    "item_id": "ITEM_7",
+    "user_id": "USER_1024",
+    "name": "Демисезонные ботинки",
+    "category": "shoes",
+    "warmth": "medium",
+    "occasions": [
+      "casual"
+    ],
+    "precipitation": [
+      "none",
+      "rain",
+      "snow"
+    ],
+    "min_temperature": 0.0,
+    "max_temperature": 24.0
+  },
+  {
+    "item_id": "ITEM_8",
+    "user_id": "USER_1024",
+    "name": "Куртка",
+    "category": "outerwear",
+    "warmth": "medium",
+    "occasions": [
+      "casual"
+    ],
+    "precipitation": [
+      "none",
+      "rain",
+      "snow"
+    ],
+    "min_temperature": 0.0,
+    "max_temperature": 24.0
+  },
+  {
+    "item_id": "ITEM_9",
+    "user_id": "USER_1024",
+    "name": "Свитер",
+    "category": "top",
+    "warmth": "warm",
+    "occasions": [
+      "casual"
+    ],
+    "precipitation": [
+      "none",
+      "rain",
+      "snow"
+    ],
+    "min_temperature": -20.0,
+    "max_temperature": 12.0
+  },
+  {
+    "item_id": "ITEM_10",
+    "user_id": "USER_1024",
+    "name": "Утепленные брюки",
+    "category": "bottom",
+    "warmth": "warm",
+    "occasions": [
+      "casual"
+    ],
+    "precipitation": [
+      "none",
+      "rain",
+      "snow"
+    ],
+    "min_temperature": -20.0,
+    "max_temperature": 12.0
+  },
+  {
+    "item_id": "ITEM_11",
+    "user_id": "USER_1024",
+    "name": "Зимние ботинки",
+    "category": "shoes",
+    "warmth": "warm",
+    "occasions": [
+      "casual"
+    ],
+    "precipitation": [
+      "none",
+      "rain",
+      "snow"
+    ],
+    "min_temperature": -20.0,
+    "max_temperature": 12.0
+  },
+  {
+    "item_id": "ITEM_12",
+    "user_id": "USER_1024",
+    "name": "Зимняя куртка",
+    "category": "outerwear",
+    "warmth": "warm",
+    "occasions": [
+      "casual"
+    ],
+    "precipitation": [
+      "none",
+      "rain",
+      "snow"
+    ],
+    "min_temperature": -20.0,
+    "max_temperature": 12.0
+  },
+  {
+    "item_id": "ITEM_20",
+    "user_id": "USER_1024",
+    "name": "Рубашка",
+    "category": "top",
+    "warmth": "medium",
+    "occasions": [
+      "work"
+    ],
+    "precipitation": [
+      "none",
+      "rain"
+    ],
+    "min_temperature": 5.0,
+    "max_temperature": 22.0
+  },
+  {
+    "item_id": "ITEM_21",
+    "user_id": "USER_1024",
+    "name": "Классические брюки",
+    "category": "bottom",
+    "warmth": "medium",
+    "occasions": [
+      "work"
+    ],
+    "precipitation": [
+      "none",
+      "rain"
+    ],
+    "min_temperature": 5.0,
+    "max_temperature": 22.0
+  },
+  {
+    "item_id": "ITEM_22",
+    "user_id": "USER_1024",
+    "name": "Закрытые туфли",
+    "category": "shoes",
+    "warmth": "medium",
+    "occasions": [
+      "work"
+    ],
+    "precipitation": [
+      "none",
+      "rain"
+    ],
+    "min_temperature": 5.0,
+    "max_temperature": 22.0
+  },
+  {
+    "item_id": "ITEM_23",
+    "user_id": "USER_1024",
+    "name": "Пальто",
+    "category": "outerwear",
+    "warmth": "medium",
+    "occasions": [
+      "work"
+    ],
+    "precipitation": [
+      "none",
+      "rain"
+    ],
+    "min_temperature": 5.0,
+    "max_temperature": 22.0
+  },
+  {
+    "item_id": "ITEM_999",
+    "user_id": "USER_2048",
+    "name": "Чужая футболка",
+    "category": "top",
+    "warmth": "light",
+    "occasions": [
+      "casual"
+    ],
+    "precipitation": [
+      "none",
+      "rain"
+    ],
+    "min_temperature": 16.0,
+    "max_temperature": 35.0
+  }
+]

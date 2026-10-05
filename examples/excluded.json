@@ -1,0 +1,11 @@
+{
+  "user_id": "USER_1024",
+  "weather": {
+    "temperature": 28.5,
+    "precipitation": "none"
+  },
+  "occasion": "casual",
+  "exclude_item_ids": [
+    "ITEM_3"
+  ]
+}

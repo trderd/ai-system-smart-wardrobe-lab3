@@ -1,0 +1,144 @@
+
+=== summer ===
+{
+  "request_id": "887fbaf2-d918-47bd-ba30-8424da9ce21c",
+  "user_id": "USER_1024",
+  "recommendation": "OUTFIT_READY",
+  "confidence": 0.9584320154607368,
+  "outfit": [
+    {
+      "item_id": "ITEM_1",
+      "category": "top",
+      "score": 0.9584320154607368
+    },
+    {
+      "item_id": "ITEM_2",
+      "category": "bottom",
+      "score": 0.9584320154607368
+    },
+    {
+      "item_id": "ITEM_3",
+      "category": "shoes",
+      "score": 0.9584320154607368
+    }
+  ],
+  "model_version": "wardrobe-lr-1.0.0",
+  "needs_user_feedback": false,
+  "reason": "Комплект подобран"
+}
+exit_code: 0
+
+=== winter ===
+{
+  "request_id": "f771a360-2919-4872-b9cf-38694c13e226",
+  "user_id": "USER_1024",
+  "recommendation": "OUTFIT_READY",
+  "confidence": 0.9981798925409339,
+  "outfit": [
+    {
+      "item_id": "ITEM_9",
+      "category": "top",
+      "score": 0.9981798925409339
+    },
+    {
+      "item_id": "ITEM_10",
+      "category": "bottom",
+      "score": 0.9981798925409339
+    },
+    {
+      "item_id": "ITEM_11",
+      "category": "shoes",
+      "score": 0.9981798925409339
+    },
+    {
+      "item_id": "ITEM_12",
+      "category": "outerwear",
+      "score": 0.9981798925409339
+    }
+  ],
+  "model_version": "wardrobe-lr-1.0.0",
+  "needs_user_feedback": false,
+  "reason": "Комплект подобран"
+}
+exit_code: 0
+
+=== work_rain ===
+{
+  "request_id": "984507ef-4308-49b6-846b-ba1909bae75c",
+  "user_id": "USER_1024",
+  "recommendation": "OUTFIT_READY",
+  "confidence": 0.8583759540230689,
+  "outfit": [
+    {
+      "item_id": "ITEM_20",
+      "category": "top",
+      "score": 0.8583759540230689
+    },
+    {
+      "item_id": "ITEM_21",
+      "category": "bottom",
+      "score": 0.8583759540230689
+    },
+    {
+      "item_id": "ITEM_22",
+      "category": "shoes",
+      "score": 0.8583759540230689
+    },
+    {
+      "item_id": "ITEM_23",
+      "category": "outerwear",
+      "score": 0.8583759540230689
+    }
+  ],
+  "model_version": "wardrobe-lr-1.0.0",
+  "needs_user_feedback": false,
+  "reason": "Комплект подобран"
+}
+exit_code: 0
+
+=== excluded ===
+{
+  "request_id": "16d97941-9ac5-4dd4-a63b-cd7d79e64058",
+  "user_id": "USER_1024",
+  "recommendation": "NEEDS_USER_FEEDBACK",
+  "confidence": null,
+  "outfit": [],
+  "model_version": "wardrobe-lr-1.0.0",
+  "needs_user_feedback": true,
+  "reason": "Нет подходящей вещи категории shoes"
+}
+exit_code: 0
+
+=== no_outfit ===
+{
+  "request_id": "010ba809-f2fb-446e-9b0a-86376c729d05",
+  "user_id": "USER_1024",
+  "recommendation": "NEEDS_USER_FEEDBACK",
+  "confidence": null,
+  "outfit": [],
+  "model_version": "wardrobe-lr-1.0.0",
+  "needs_user_feedback": true,
+  "reason": "Нет подходящей вещи категории top"
+}
+exit_code: 0
+
+=== invalid ===
+{"error": "VALIDATION_FAILED", "detail": [{"type": "less_than_equal", "loc": ["weather", "temperature"], "msg": "Input should be less than or equal to 50", "ctx": {"le": 50.0}}]}
+exit_code: 2
+
+=== out_of_domain ===
+{
+  "request_id": "042eeb7b-9a3c-4014-a9c5-4b57f6648534",
+  "user_id": "USER_1024",
+  "recommendation": "NEEDS_USER_FEEDBACK",
+  "confidence": null,
+  "outfit": [],
+  "model_version": "wardrobe-lr-1.0.0",
+  "needs_user_feedback": true,
+  "reason": "Температура вне диапазона учебной модели"
+}
+exit_code: 0
+
+=== missing_model ===
+{"error": "MODEL_NOT_READY"}
+exit_code: 3

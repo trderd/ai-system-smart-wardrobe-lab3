@@ -1,0 +1,8 @@
+{
+  "user_id": "USER_1024",
+  "weather": {
+    "temperature": -8.5,
+    "precipitation": "snow"
+  },
+  "occasion": "casual"
+}
